@@ -1,0 +1,114 @@
+<html lang="es">
+  <head>
+    <!-- Optimize HTML reading spead with order of tags -->
+
+    <!-- 1. <meta charset|http-equiv|viewport /> -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 2. <title> -->
+    <title>ReWorth coding challenge</title>
+
+    <!-- preconnect -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      crossorigin="true"
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+    />
+
+    <!-- 4. <script src="" async></script> -->
+
+    <!-- 5. CSS that includes @import -->
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 6. Synchronous JS -->
+    <!-- 7. Synchronous CSS -->
+    <!-- 8. preload -->
+    <!-- 9. <script src="" defer</script> -->
+
+    <!-- 10. prefetch / prerender -->
+    <link
+      rel="prefetch"
+      href="https://reworth-public-assets.s3-us-west-2.amazonaws.com/img/logo.png"
+    />
+
+    <!-- 11. Everything else ("SEO" meta tags, icons, Open Graph, etc.) -->
+  </head>
+
+  <body>
+    <header class="w-full flex items-center bg-white shadow h-[72px]">
+      <div class="container flex items-center">
+        <div class="w-36 relative">
+          <a
+            href="https://www.reworth.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="block m-auto"
+              src="https://reworth-public-assets.s3-us-west-2.amazonaws.com/img/logo.png"
+              alt="ReWorth rewards"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        <nav class="ml-auto">
+          <ul class="flex items-center">
+            <li>
+              <a
+                href="https://www.reworth.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="r-link"
+              >
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.reworth.co/comercios"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="r-link"
+              >
+                Comercios
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.reworth.co/instituciones-financieras"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="r-link"
+              >
+                Instituaciones Financieras
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.reworth.co/blog"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="r-link"
+              >
+                Blog
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- This is the root element for React -->
+    <div id="root"></div>
+
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>

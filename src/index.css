@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  .r-link {
+    @apply h-[30px] px-6 inline-block whitespace-nowrap leading-[30px] text-[#636363] hover:text-primary transition-colors duration-150 font-medium;
+  }
+}
+
+@tailwind utilities;
