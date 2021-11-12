@@ -6,8 +6,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
     "prebuild": "rimraf ./dist",
+    "build": "parcel build",
+    "postbuild": "cp -r public/* dist/",
     "lint": "eslint --ext ts,tsx src",
     "lint-fix": "eslint --ext ts,tsx src --fix"
   },
