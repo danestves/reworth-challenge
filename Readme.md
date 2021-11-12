@@ -7,7 +7,7 @@
 
 ✨ [Click to see the Demo live on Vercel](https://reworth-challenge.vercel.app/) 👉 [https://reworth-challenge.vercel.app/](https://reworth-challenge.vercel.app/)
 
-![Demon](https://github.com/danestves/reworth-challenge/blob/main/docs/demo.gif)
+![Demo](https://github.com/danestves/reworth-challenge/blob/main/docs/demo.gif?raw=true)
 
 ## Summary
 
