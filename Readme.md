@@ -5,6 +5,10 @@
 > Little coding challenge for Reworth hiring process.
 > Involves React components and API integration tasks.
 
+✨ [Click to see the Demo live on Vercel](https://reworth-challenge.vercel.app/) 👉 [https://reworth-challenge.vercel.app/](https://reworth-challenge.vercel.app/)
+
+![Demon](https://github.com/danestves/reworth-challenge/tree/main/docs/demo.gif)
+
 ## Summary
 
 The [original project](https://github.com/reworthrewards/frontend-challenge) was updated with the latest versions of all packages, i have deleted all the old files and added the new ones.
